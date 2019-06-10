@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LevelController">
+   <children>
+      <Button layoutX="126.0" layoutY="56.0" mnemonicParsing="false" onAction="#goToGame" prefHeight="25.0" prefWidth="53.0" text="Latwy" />
+      <Button layoutX="126.0" layoutY="92.0" mnemonicParsing="false" onAction="#goToGame" prefHeight="25.0" prefWidth="54.0" text="Średni" />
+      <Button fx:id="ButtonHard" layoutX="127.0" layoutY="125.0" mnemonicParsing="false" onAction="#goToGame" text="Trudny" />
+      <Button fx:id="ButtonExpert" layoutX="126.0" layoutY="162.0" mnemonicParsing="false" onAction="#goToGame" prefHeight="25.0" prefWidth="54.0" text="Expert" />
+      <Button fx:id="ButtonMaster" layoutX="126.0" layoutY="199.0" mnemonicParsing="false" onAction="#goToGame" prefHeight="25.0" prefWidth="54.0" text="Master" />
+      <Button layoutX="38.0" layoutY="251.0" mnemonicParsing="false" onAction="#backToNick" text="Powrót" />
+      <Label layoutX="107.0" layoutY="32.0" text="Wybierz poziom" />
+   </children>
+</Pane>

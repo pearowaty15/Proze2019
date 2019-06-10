@@ -1,0 +1,8 @@
+#Plik parametryczny gry.
+#Komentarz zaczyna się od znaku # i obowiązuje do końca linii.
+NazwaPoziomu1=Poziom 1
+LiczbaŻyć1=10
+NazwaPoziomu2=Poziom 2
+LiczbaŻyć2=10
+NazwaPoziomu3=Poziom 3
+LiczbaŻyć3=10

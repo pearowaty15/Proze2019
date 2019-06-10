@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-4.576271186440692" y="762.0677966101695">sample.Main</node>
+    <node x="147.75" y="0.0">sample.MainController</node>
+    <node x="219.0" y="211.0">sample.GameController</node>
+    <node x="498.0" y="0.0">sample.MenuSceneController</node>
+    <node x="762.0" y="0.0">sample.NickController</node>
+    <node x="0.0" y="408.5">sample.LevelController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sample.GameController" target="sample.MainController">
+      <point x="0.0" y="-311.0" />
+      <point x="336.0" y="186.0" />
+      <point x="252.75" y="186.0" />
+      <point x="35.0" y="80.5" />
+    </edge>
+    <edge source="sample.LevelController" target="sample.MainController">
+      <point x="0.0" y="-113.5" />
+      <point x="99.5" y="186.0" />
+      <point x="182.75" y="186.0" />
+      <point x="-35.0" y="80.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6555555555555556" x="1116.4406779661017" y="456.6949152542373" />
+  <SelectedNodes>
+    <node>sample.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
